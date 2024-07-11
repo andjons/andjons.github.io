@@ -1,6 +1,18 @@
 @use "pico";
 
 :root {
-    // Typography
     --pico-font-family: "Vollkorn", serif;
+    --pico-font-family-monospace: "Inconsolata", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    --pico-font-family: "Cabin", sans-serif;
+}
+
+ul li {
+    list-style: disc;
+}
+
+code, kbd {
+    padding: 0 .375rem;
 }
