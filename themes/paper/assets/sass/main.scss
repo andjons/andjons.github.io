@@ -1,11 +1,21 @@
-@use "pico";
+@use "pico" with (
+    $breakpoints: (
+        lg: (viewport: 700px),
+        xl: (viewport: 700px),
+        xxl: (viewport: 700px)),
+);
 
 :root {
     --pico-font-family: "Vollkorn", serif;
     --pico-font-family-monospace: "Inconsolata", monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     --pico-font-family: "Cabin", sans-serif;
 }
 
@@ -13,6 +23,7 @@ ul li {
     list-style: disc;
 }
 
-code, kbd {
+code,
+kbd {
     padding: 0 .375rem;
 }
