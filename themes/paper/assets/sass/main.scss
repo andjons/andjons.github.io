@@ -1,8 +1,8 @@
 @use "pico" with (
     $breakpoints: (
-        lg: (viewport: 700px),
-        xl: (viewport: 700px),
-        xxl: (viewport: 700px)),
+        lg: (viewport: 800px),
+        xl: (viewport: 900px),
+        xxl: (viewport: 1000px)),
 );
 
 :root {
