@@ -7,7 +7,7 @@
 
 :root {
     --pico-font-family: "Vollkorn", serif;
-    --pico-font-family-monospace: "Inconsolata", monospace;
+    --pico-font-family-monospace: "Courier Prime", monospace;
 }
 
 h1,
@@ -16,14 +16,10 @@ h3,
 h4,
 h5,
 h6 {
-    --pico-font-family: "Cabin", sans-serif;
+    --pico-font-family: "Vollkorn SC", serif;
+    --pico-font-weight: 400;
 }
 
 ul li {
     list-style: disc;
-}
-
-code,
-kbd {
-    padding: 0 .375rem;
 }
