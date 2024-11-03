@@ -8,4 +8,4 @@ theme = 'paper'
 [markup.goldmark.renderer]
 unsafe = true
 [markup.highlight]
-style = 'catppuccin-latte'
+noClasses = false
