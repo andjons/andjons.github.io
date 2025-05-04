@@ -1,10 +1,10 @@
 @use "pico" with (
-	$enable-semantic-container: true,
-	$enable-viewport: false,
-	$enable-classes: false,
-	$modules: (
-		"themes/default": false,
-	)
+  $enable-semantic-container: true,
+  $enable-viewport: true,
+  $enable-classes: true,
+  $modules: (
+    "themes/default": false,
+  )
 );
 
 // Custom theme
@@ -13,7 +13,5 @@
 
 /* Assume light mode by default */
 @import "syntax_light.css" screen;
-/* Supersede dark mode when applicable */  
+/* Supersede dark mode when applicable */
 @import "syntax_dark.css" screen and (prefers-color-scheme: dark);
-
-
